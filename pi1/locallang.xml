@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_spxgooglestorelocator_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="de" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Filialen suchen</label>
+			<label index="zip_label">*PLZ:</label>
+			<label index="street_label">Adresse:</label>
+			<label index="city_label">*Stadt:</label>
+			<label index="country_label">Land:</label>
+			<label index="categories_label">Suche eingrenzen:</label>
+			<label index="radius_label">Im Umkreis von (km):</label>
+		</languageKey>
+		<languageKey index="default" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Find Store</label>
+			<label index="zip_label">ZIP:</label>
+			<label index="street_label">Street:</label>
+			<label index="city_label">City:</label>
+			<label index="country_label">Country:</label>
+			<label index="categories_label">Restrict on Categories:</label>
+			<label index="radius_label">Radius: </label>
+		</languageKey>
+	</data>
+</T3locallang>

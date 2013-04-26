@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'spx_google_storelocator'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_spxgooglestorelocator_locations">Store Location</label>
+			<label index="tx_spxgooglestorelocator_locations.storename">Store Name</label>
+			<label index="tx_spxgooglestorelocator_locations.address">Address</label>
+			<label index="tx_spxgooglestorelocator_locations.city">City</label>
+			<label index="tx_spxgooglestorelocator_locations.state">State</label>
+			<label index="tx_spxgooglestorelocator_locations.zip">ZIP / Postal Code</label>
+			<label index="tx_spxgooglestorelocator_locations.country">Country</label>
+			<label index="tx_spxgooglestorelocator_locations.phone">Phone</label>
+			<label index="tx_spxgooglestorelocator_locations.hours">Hours</label>
+			<label index="tx_spxgooglestorelocator_locations.url">URL</label>
+			<label index="tx_spxgooglestorelocator_locations.notes">Notes</label>
+			<label index="tx_spxgooglestorelocator_locations.imageurl">Image</label>
+			<label index="tx_spxgooglestorelocator_locations.icon">Icon</label>
+			<label index="tx_spxgooglestorelocator_locations.use_coordinate">Use Coordinates</label>
+			<label index="tx_spxgooglestorelocator_locations.categories.I.0">Category 1</label>
+			<label index="tx_spxgooglestorelocator_locations.categories">Categories</label>
+			<label index="tx_spxgooglestorelocator_locations.lat">Latitude</label>
+			<label index="tx_spxgooglestorelocator_locations.lon">Logitude</label>
+			<label index="tx_spxgooglestorelocator_categories">Store Category</label>
+			<label index="tx_spxgooglestorelocator_categories.name">Category name</label>
+			<label index="tx_spxgooglestorelocator_categories.description">Description</label>
+			<label index="tt_content.list_type_pi1">Store Locator</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_spxgooglestorelocator_locations">Filiale</label>
+			<label index="tx_spxgooglestorelocator_locations.storename">Filialbezeichnung</label>
+			<label index="tx_spxgooglestorelocator_locations.address">Adresse</label>
+			<label index="tx_spxgooglestorelocator_locations.city">Stadt</label>
+			<label index="tx_spxgooglestorelocator_locations.state">Bundesstaat</label>
+			<label index="tx_spxgooglestorelocator_locations.zip">Postleitzahl</label>
+			<label index="tx_spxgooglestorelocator_locations.country">Land</label>
+			<label index="tx_spxgooglestorelocator_locations.phone">Telefon</label>
+			<label index="tx_spxgooglestorelocator_locations.hours">Öffnungszeiten</label>
+			<label index="tx_spxgooglestorelocator_locations.url">URL</label>
+			<label index="tx_spxgooglestorelocator_locations.notes">Bemerkungen</label>
+			<label index="tx_spxgooglestorelocator_locations.imageurl">Bild</label>
+			<label index="tx_spxgooglestorelocator_locations.icon">Symbol</label>
+			<label index="tx_spxgooglestorelocator_locations.use_coordinate">Benutze manuelle Koordinaten</label>
+			<label index="tx_spxgooglestorelocator_locations.categories.I.0">Kategorie 1</label>
+			<label index="tx_spxgooglestorelocator_locations.categories">Kategorien</label>
+			<label index="tx_spxgooglestorelocator_locations.lat">Breitengrad</label>
+			<label index="tx_spxgooglestorelocator_locations.lon">Längengrad</label>
+			<label index="tx_spxgooglestorelocator_categories">Filialkategorie</label>
+			<label index="tx_spxgooglestorelocator_categories.name">Kategoriename</label>
+			<label index="tx_spxgooglestorelocator_categories.description">Beschreibung</label>
+			<label index="tt_content.list_type_pi1">Filialfinder</label>
+		</languageKey>
+	</data>
+</T3locallang>

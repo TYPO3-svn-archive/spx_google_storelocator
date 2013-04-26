@@ -1,0 +1,18 @@
+# cat=basic/enable; type=string; label=Your Google Maps API Key (You can get one under www.google.com/apis/maps/)
+enable.GoogleAPIKey= 
+# cat=basic/enable; type=string; label=Allowed Country Codes in search form
+enable.Countrycodes=de,at,ch,fr,be,nl,li,us,uk,ca,it,es,gr,li,dk,pl,ru,hu
+# cat=basic/enable; type=string; label=Radius presets in km. The user can choose from these presets for distance of locations.
+enable.Radius=25,50,150,300,500,2000,50000
+# cat=basic/enable; type=boolean; label=Display store image in result list
+enable.DisplayImageInResults=1
+# cat=basic/enable; type=boolean; label=Display store image in balloon on map
+enable.DisplayImageInBalloon=1
+# cat=basic/enable; type=boolean; label=Use auto zoom on map
+enable.UseAutoZoom=1 
+# cat=basic/enable; type=string; label=Auto zoom levels (Use following pattern: ## = #####,## = #####,...)
+enable.AutoZoomLevels=16 = 50000,15 = 7200,14 = 3600,12 = 1600,11 = 800,10 = 400,9  = 200,8  = 100,7  = 50,6  = 25,5  = 8,4  = 4,3  = 2,2  = 0
+# cat=basic/dims/d1; type=int[0-999]; label=Maximum number of results displayed
+ResultLimit = 25
+# cat=basic/dims/d1; type=int[0-999]; label=Maximum number of items displayed in drop down field
+DropdownLimit = 300
