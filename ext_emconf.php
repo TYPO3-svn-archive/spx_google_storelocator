@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "spx_google_storelocator".
  *
- * Auto generated 27-04-2013 12:01
+ * Auto generated 27-04-2013 12:08
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
