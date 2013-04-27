@@ -282,8 +282,7 @@ class tx_spxgooglestorelocator_pi1 extends tslib_pibase {
       <tr><td>" . htmlspecialchars($this->pi_getLL('country_label')) . "</td>
 			<td><select name=\"country\">";
 
-        $country_array = split('[,]', $config['enable.']['Countrycodes']);
-        foreach ($country_array AS $country_iso) {
+        foreach (t3lib_div::trimExplode(',', $config['enable.']['Countrycodes']) AS $country_iso) {
             $result = $GLOBALS['TYPO3_DB']->sql_query("SELECT cn_short_de FROM static_countries WHERE cn_iso_2 = '$country_iso';");
             $row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($result);
             $returnval .= "<option value=\"" . $country_iso . "\">" . $row['cn_short_de'] . "</option>";
@@ -292,8 +291,7 @@ class tx_spxgooglestorelocator_pi1 extends tslib_pibase {
       <tr><td colspan=\"3\">" . htmlspecialchars($this->pi_getLL('radius_label')) . "
       <select name=\"radius\">";
 
-        $radius_array = split('[,]', $config['enable.']['Radius']);
-        foreach ($radius_array AS $radius) {
+        foreach (t3lib_div::trimExplode(',', $config['enable.']['Radius']) AS $radius) {
             $returnval .= "<option>" . $radius . "</option>";
         }
         $returnval .= "</select>
