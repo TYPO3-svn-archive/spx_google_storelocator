@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2007 Raphael Heilmann <rapha@dmozed.org>
+*  (c) 2007-2013 Raphael Heilmann <rh@stuttgartmedia.de>
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -28,7 +28,7 @@
 /**
  * Class that adds the wizard icon.
  *
- * @author	Raphael Heilmann <rapha@dmozed.org>
+ * @author    Raphael Heilmann <rh@stuttgartmedia.de>
  * @package	TYPO3
  * @subpackage	tx_spxgooglestorelocator
  */

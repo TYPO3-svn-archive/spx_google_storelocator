@@ -17,6 +17,8 @@
 			<label index="country_label">Land:</label>
 			<label index="categories_label">Suche eingrenzen:</label>
 			<label index="radius_label">Im Umkreis von (km):</label>
+            <label index="searched_near">Zeige Ergebnisse in der Nähe von</label>
+            <label index="results_found">Ergebnisse gefunden:</label>
 		</languageKey>
 		<languageKey index="default" type="array">
 			<label index="list_mode_1">Mode 1</label>
@@ -29,7 +31,9 @@
 			<label index="city_label">City:</label>
 			<label index="country_label">Country:</label>
 			<label index="categories_label">Restrict on Categories:</label>
-			<label index="radius_label">Radius: </label>
+            <label index="radius_label">Radius: </label>
+            <label index="searched_near">Searched for stores near</label>
+            <label index="results_found">Results found:</label>
 		</languageKey>
 	</data>
 </T3locallang>

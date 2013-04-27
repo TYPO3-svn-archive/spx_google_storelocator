@@ -1,5 +1,11 @@
 (add new changes on top of this file)
 
+13-04-26 Raphael Heilmann <rh@stuttgartmedia.de>
+    * sponsored by www.ochsner.de
+    * Compatibility with Maps API v3
+    * complete code review
+
+
 07-09-12 Raphael Heilmann  <rapha@dmozed.org>
 
 	* Initial release
