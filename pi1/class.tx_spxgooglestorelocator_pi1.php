@@ -352,19 +352,19 @@ class tx_spxgooglestorelocator_pi1 extends tslib_pibase {
             $content .= "<div id=\"map\" class=\"tx_spxgooglestorelocator_map\"></div>
                    <div id=\"results\" class=\"tx_spxgooglestorelocator_results\">";
 
-            $content .= $this->pi_getLL('searched_near').' '.$searchAddress."<br/>\n";
+            $content .= $this->pi_getLL('searched_near').' '.$searchAddress."<br />\n";
 
             if ($GLOBALS['TYPO3_DB']->sql_num_rows($mysql_results) == 0) {
                 $content .= $this->pi_getLL('no_results_found');
             }
             else {
-                $content .= $this->pi_getLL('results_found')."<br/>\n";
+                $content .= $this->pi_getLL('results_found')."<br />\n";
                 $counter = 0;
                 while ($rows = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($mysql_results)) {
                     $counter++;
                     $storename = $rows['storename'];
                     $distance = number_format($rows['distance'], 2, '.', '');
-                    $content .= 'in ' . $distance . ': ' . $storename . "<br/> \n";
+                    $content .= 'in ' . $distance . ': ' . $storename . "<br /> \n";
                 }
                 $content .= "</div>";
 
