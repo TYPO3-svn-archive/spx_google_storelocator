@@ -43,7 +43,8 @@ class tx_spxgooglestorelocator_pi1_wizicon {
 					function proc($wizardItems)	{
 						global $LANG;
 
-						$LL = $this->includeLocalLang();
+                        $llFile = t3lib_extMgm::extPath('spx_google_storelocator').'locallang.xml';
+                        $LL = t3lib_div::readLLfile($llFile, $LANG->lang);
 
 						$wizardItems['plugins_tx_spxgooglestorelocator_pi1'] = array(
 							'icon'=>t3lib_extMgm::extRelPath('spx_google_storelocator').'pi1/ce_wiz.gif',
@@ -55,18 +56,7 @@ class tx_spxgooglestorelocator_pi1_wizicon {
 						return $wizardItems;
 					}
 
-					/**
-					 * Reads the [extDir]/locallang.xml and returns the $LOCAL_LANG array found in that file.
-					 *
-					 * @return	The array with language labels
-					 */
-					function includeLocalLang()	{
-						$llFile = t3lib_extMgm::extPath('spx_google_storelocator').'locallang.xml';
-						$LOCAL_LANG = t3lib_div::readLLXMLfile($llFile, $GLOBALS['LANG']->lang);
-						
-						return $LOCAL_LANG;
-					}
-				}
+}
 
 
 
